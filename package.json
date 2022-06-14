@@ -1,0 +1,8 @@
+{
+  "name": "rntemplate",
+  "version": "1.0",
+  "description": "React Native Template",
+  "repository": "https://github.com/asolerp/rntemplate.git",
+  "author": "Alberto Soler <albertosolpal@gmail.com>",
+  "license": "MIT"
+}
