@@ -9,7 +9,7 @@ async function createFreshApp() {
       });
 
       exec(
-        `npx react-native init ${name} --template https://github.com/asolerp/rntemplate`
+        `npx react-native init --title ${name} --template https://github.com/asolerp/rntemplate`
       )
 
 }
