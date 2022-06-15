@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const ora = require('ora');
-
+const exec = require('child_process').exec;
 const spinner = ora('Executing post init script ');
 
 new Promise((resolve) => {
@@ -9,6 +9,7 @@ new Promise((resolve) => {
   resolve();
 }).then(() => {
   spinner.succeed();
+  
 }).catch(() => {
   spinner.fail();
   throw new Error('Something went wrong during the post init script execution');

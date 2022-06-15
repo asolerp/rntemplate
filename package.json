@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A minimal template with good architecture and common packages to let you focus on writing features right away.",
   "scripts": {
-    "publish": ""
+    "publish": "",
+    "create": "node ./bin/index.js"
   },
   "files": [
     "template",
@@ -50,5 +51,8 @@
     "github": {
       "release": true
     }
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
